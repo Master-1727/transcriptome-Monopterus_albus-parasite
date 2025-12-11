@@ -1,7 +1,7 @@
 # Set working environment
 rm(list = ls())
 gc()
-setwd('/home/qinbeibei/project_for_test/HT20220905701/')
+setwd('/home/workdir/project_for_test/HT20220905701/')
 set.seed(666)
 
 # Load required R packages
@@ -853,10 +853,10 @@ write_csv(x = kegg@result,     file = '02.result/10.mlituwgcna/dM15_kegg_res.csv
 
 # Font settings for plotting
 library(showtext)
-font_add("Arial", regular = "/home/qinbeibei/data/fonts/ARIAL.TTF",
-         bold    = "/home/qinbeibei/data/fonts/ARIALBD.TTF",
-         italic  = "/home/qinbeibei/data/fonts/ARIALI.TTF",
-         bolditalic = "/home/qinbeibei/data/fonts/ARIALBI.TTF")
+font_add("Arial", regular = "/home/workdir/data/fonts/ARIAL.TTF",
+         bold    = "/home/workdir/data/fonts/ARIALBD.TTF",
+         italic  = "/home/workdir/data/fonts/ARIALI.TTF",
+         bolditalic = "/home/workdir/data/fonts/ARIALBI.TTF")
 showtext_auto()
 
 library(RColorBrewer)
@@ -1004,3 +1004,4 @@ ggsave('02.result/10.mlituwgcna/gsva_M15_tissue.pdf',
        width = 180,
        height = 100,
        units = 'mm')
+
