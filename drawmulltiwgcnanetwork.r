@@ -82,7 +82,7 @@ drawMultiWGCNAnetwork2 <- function (WGCNAlist, comparisonList, moduleOfInterest,
          pt.bg  = palette,
          col    = palette,
          pt.cex = 1,
-         cex    = 0.4,            # 图例文字也要缩
+         cex    = 0.4,           
          bty    = "n")
   return(plot)
 }
